@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+ <meta name="view port"content="width=device-widhth, initial scale=1.0">
+ <style>table
+ {
+     width:100%;
+    max-width:600px; 
+    border-collapse: collapse;
+    margin:20px;
+    
+ }
+ td{
+     padding:8,12;
+     vertical -align:top;
+     
+ }
+ td: first: patient{
+     font-weight:bold;
+     text-align:center;
+     width:35%;
+ }
+ </style>
+ <title>Forms</title>
+    </head>
+    <body>
+  <form action=""method="post"name="registration">
+      <p>
+          patients name:
+          <input type="text"name="patient's name"value="enter patient's name"maximum length ="30"/>
+      </p>
+      <p>
+          age:
+          <input type="age"name="patient's age"value ="enter patient's age"maximum length ="3"/>
+      </p>
+      <p>
+      gender:
+      <br/>
+      <input type="radio"name="patient's gender"id=""valu ="male"
+      checked="checked">male
+      <input type ="radio"name="patient's gender"id=""value="female">female
+      </p>
+      <p>
+          patient's ID:
+          <input type ="text"name="patient's ID"value="enter patient's ID"maximum length ="15"/>
+      </p>
+      <p>
+          contact:
+          <input type="text"name="patient's contact"value="enter patient's contact"maximum length ="12"/>
+      </p>
+      <p>
+          health status:
+          <br/>
+ <input type ="checkbox"name="service"value ="health"checked="checked"/>
+ health<br/>
+<input type ="checkbox"name="service"value ="asthma"/>asthma<br/>
+ <input type ="checkbox"name="service"value ="TB"/>TB<br/>
+<input type="checkbox"name="service"value="diabetes"/>diabetes <br/>
+<input type="checkbox"name="service"value ="recovering"/>recovering <br/>
+      </p>
+      <p>
+          weight:
+ <input type="text"name="patient's weight"value="enter patient's weight"maximum length ="3"/>
+      </p>
+   <p>
+  next of kin:
+  <input type ="text"name="next of kin"value="enter the name"maximum length ="30"/>
+   </p>
+   <p>
+  marital status:
+  <br/>
+  <input type ="radio"name="marital status"id=""value="single"checked="checked"/>single<br/>
+  <input type ="radio"name="marital status"id=""value="married"/>married<br/>
+   </p>
+  </form>
+    </body>
+</html>
